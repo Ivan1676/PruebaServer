@@ -124,3 +124,18 @@
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="{{ $depth }}" /><a itemprop="item" href="{{ .page.RelPermalink }}"{{if not .depth}} aria-disabled="true"{{end}}><span itemprop="name">{{if .page.Title}}{{ .page.Title }}{{else}}{{ .page.Site.Title }}{{end}}</span></a>{{ if .depth }} > {{ end }}</li>
   {{- end }}
 {{- end }}
+<style>
+    #topbar {
+      background-color: rgb(28, 151, 189);
+    }
+
+    #breadcrumbs {
+      background-color: rgb(247, 247, 247);
+    }
+
+    .navigation {
+      background-color: linear-gradient(100deg, rgb(65, 182, 250) 10%, black 90%, rgb(80, 191, 255) 10%, black 90%); /*EL background normal si funciona x k este no??*/
+    }
+
+
+</style>
