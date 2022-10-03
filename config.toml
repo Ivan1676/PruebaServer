@@ -2,3 +2,62 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'relearn'
+
+# [[menu.shortcuts]]
+#  name="<i class='far fa-question-circle'></i>Ejercicios resuletos" 
+# identified="" weight=3
+
+[params]
+themeVariant="dwes"
+
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+        [[Languages.es.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i>  Wiki del curso"
+            url="https://es.wikipedia.org/wiki/Wikipedia:Portada"
+            weight=1
+         [[Languages.es.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i>  Página de php"
+            url="https://php.net"
+            weight=2
+         [[Languages.es.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i>  Referencia"
+            url="https://php.net"
+            weight=3
+
+    [Languages.en]
+        title = "Example use language"
+        weight = 2
+        languageName = "English"
+        [[Languages.en.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i> Course Wiki"
+            url="https://es.wikipedia.org/wiki/Wikipedia:Portada"
+            weight=1
+        [[Languages.en.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i>  Php page"
+            url="https://php.net"
+            weight=2
+        [[Languages.en.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i>  What you gonna do"
+            url="https://php.net"
+            weight=3
+
+   [Languages.fr]
+        title = "Exemple d'utilisation des langues"
+        weight = 3
+        languageName = "Français"
+        [[Languages.fr.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i> Le Wiki "
+            url="https://es.wikipedia.org/wiki/Wikipedia:Portada"
+            weight=1
+        [[Languages.fr.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i> Le php"
+            url="https://php.net"
+            weight=2
+        [[Languages.fr.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i> Le Referencie"
+            url="https://php.net"
+            weight=3
